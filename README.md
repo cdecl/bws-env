@@ -29,13 +29,16 @@
 
 - **OS**: macOS / Linux
 - **필수 도구**:
-  - [Bitwarden Secrets CLI (`bws`)](https://bitwarden.com/help/secrets-manager-cli/) (v1.0.0+)
+  - [Bitwarden Secrets Manager CLI (`bws`)](https://bitwarden.com/help/secrets-manager-cli/) (v1.0.0+)
   - `jq`
   - `python3` (macOS/Linux 기본 탑재)
 
 ```bash
-# macOS (Homebrew)
-brew install jq bitwarden-secrets-cli
+# Bitwarden Secrets Manager CLI (bws) 설치
+curl https://bws.bitwarden.com/install | sh
+
+# macOS (Homebrew) - jq 설치
+brew install jq
 ```
 
 ---
